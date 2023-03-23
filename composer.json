@@ -1,0 +1,22 @@
+{
+    "name": "outmart/team",
+    "autoload": {
+        "psr-4": {
+            "OutMart\\Team\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karim Mohamed",
+            "email": "komicho1996@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OutMart\\Team\\TeamServiceProvider"
+            ]
+        }
+    }
+}
